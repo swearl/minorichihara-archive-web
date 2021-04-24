@@ -12,5 +12,6 @@
   ],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
-  }
+  },
+  "vetur.experimental.templateInterpolationService": true
 }
