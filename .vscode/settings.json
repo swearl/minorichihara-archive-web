@@ -3,15 +3,10 @@
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "vue",
-    "typescript",
-    "typescriptreact"
-  ],
+  "eslint.validate": ["javascript", "javascriptreact", "vue", "typescript", "typescriptreact"],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "vetur.experimental.templateInterpolationService": true
+  "vetur.experimental.templateInterpolationService": true,
+  "css.customData": [".vscode/css_custom_data.json"]
 }
