@@ -7,11 +7,9 @@ import path from 'path';
 export default defineConfig({
   plugins: [vue(), vueJSX()],
   resolve: {
-    alias: [
-      {
-        find: '@',
-        replacement: path.resolve(__dirname, 'src'),
-      },
-    ],
+    alias: {
+      '@': path.resolve(__dirname, './src'),
+      '@/assets': path.resolve(__dirname, './src/assets'),
+    },
   },
 });
